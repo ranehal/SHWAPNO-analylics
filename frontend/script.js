@@ -515,6 +515,7 @@ function showLoading(show, message = 'Loading...', percent = 0) {
     const loader = document.getElementById('loading-spinner');
     if (loader) {
         loader.classList.toggle('active', show);
+        loader.style.display = show ? 'flex' : 'none';
         const text = loader.querySelector('span');
         if (text) {
             if (percent > 0) {
