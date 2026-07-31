@@ -863,7 +863,7 @@ function renderProducts() {
         if (activeIntelFilter === 'good') return p.normalized_price < (p.avgPrice * goodBuyThreshold);
         if (activeIntelFilter === 'customdrop') return p.avgPrice > 0 && p.normalized_price <= (p.avgPrice * (1 - customDropThreshold / 100));
         if (activeIntelFilter === 'wait') return p.normalized_price > (p.avgPrice * 1.05);
-        if (activeIntelFilter === 'low') return p.hist_count >= 1 && p.maxPrice > p.minPrice && p.normalized_price <= (p.minPrice + 0.01);
+        if (activeIntelFilter === 'low') return p.hist_count >= 1 && p.normalized_price <= (p.minPrice + 0.01);
         if (activeIntelFilter === 'new') return p.isNew;
         if (activeIntelFilter === 'pricechange') {
             if (p._pcDiff === undefined) return false;
@@ -1616,7 +1616,7 @@ async function openDetailedChart(product) {
     
     const isAllTimeLow = product.normalized_price <= (product.minPrice + 0.01);
     const minDisplay = isAllTimeLow 
-        ? '<span style="color:var(--gold); font-weight:900;">' + (premiumUnlocked ? 'ALL TIME LOW: ' : '3-DAY LOW: ') + fmt(product.minPrice) + '</span>'
+        ? '<span style="color:var(--gold); font-weight:900;">ALL TIME LOW: ' + fmt(product.minPrice) + '</span>'
         : '<span style="color:var(--text-secondary)">High: ' + fmt(product.maxPrice) + '</span>';
     
     document.getElementById('chart-min-max').innerHTML = minDisplay;
@@ -1636,7 +1636,6 @@ async function openDetailedChart(product) {
         <button class="btn-icon btn-variant-ghost" onclick="closeModal()"><i class="fas fa-arrow-left"></i> Back</button>
         <div style="display:flex; gap:7px; flex-wrap:wrap; justify-content:flex-end;">
             <button class="btn-icon btn-variant-alerts" onclick="openAlertForProduct(event, '${product.id}')"><i class="fas fa-bell-plus"></i> Price alert</button>
-            ${premiumUnlocked ? '' : '<button class="btn-icon btn-variant-key" onclick="openPremiumModal(\'plans\')"><i class="fas fa-crown"></i> Unlock history</button>'}
             <button class="btn-icon btn-variant-minimal" onclick="customizeItem('${product.id}')"><i class="fas fa-edit"></i> Customize</button>
         </div>
     `;
@@ -3040,7 +3039,7 @@ function setPremiumUnlocked(unlocked, persist = true) {
     const mobileAnalytics = document.querySelector('#mobile-analytics-btn i');
     if (mobileAnalytics) mobileAnalytics.className = premiumUnlocked ? 'fas fa-chart-line' : 'fas fa-lock';
     const lowButton = document.querySelector('.intel-btn[data-filter="low"]');
-    if (lowButton) lowButton.textContent = premiumUnlocked ? 'All Time Low' : '3-Day Low';
+    if (lowButton) lowButton.textContent = 'All Time Low';
 }
 
 function buildHistoryView(product) {
@@ -3079,18 +3078,16 @@ function buildHistoryView(product) {
             _preview: true
         });
     }
-    return { rows: [...preview, ...actual], premium: false, lockedCount: preview.length };
+    return { rows: [...preview, ...actual], premium: true, lockedCount: preview.length };
 }
 
 function renderHistoryAccessState(historyView) {
     const mask = document.getElementById('history-paywall-mask');
     const badge = document.getElementById('history-access-badge');
-    if (mask) mask.hidden = historyView.premium;
+    if (mask) mask.hidden = true;
     if (badge) {
-        badge.classList.toggle('premium', historyView.premium);
-        badge.innerHTML = historyView.premium
-            ? '<i class="fas fa-unlock-keyhole"></i> Complete history'
-            : '<i class="fas fa-clock"></i> Free 3-day view';
+        badge.classList.add('premium');
+        badge.innerHTML = '<i class="fas fa-bullseye"></i> All-Time Low tracking';
     }
     const upgrade = document.getElementById('history-upgrade-btn');
     if (upgrade) upgrade.onclick = () => openPremiumModal('plans');
@@ -3218,7 +3215,7 @@ function hasActiveAlert(productId) {
 function alertConditionText(alert, product) {
     if (alert.type === 'target') return `Notify at ${formatTk(alert.threshold)} or lower`;
     if (alert.type === 'drop') return `Notify after a ${Number(alert.threshold).toFixed(0)}% drop from ${formatTk(alert.basePrice)}`;
-    return premiumUnlocked ? 'Notify at a new all-time low' : 'Notify at a new 3-day low';
+    return 'Notify at a new all-time low';
 }
 
 function renderPriceAlerts() {
