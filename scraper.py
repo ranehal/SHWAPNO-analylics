@@ -1,4 +1,15 @@
 import json, re, os, time, urllib.request, urllib.error, gzip, ssl
+
+import random
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edge/122.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15"
+]
+
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
@@ -8,7 +19,7 @@ ROOT_DIR = os.path.dirname(__file__)
 
 API = 'https://store-api.shwapno.com/en/api'
 HEADERS = {
-    "User-Agent": "shwapno.flutter.android",
+    "User-Agent": random.choice(USER_AGENTS),
     "Accept": "application/json",
     "client-type": "App",
     "customer": "fbbbb451-a780-4101-88e0-aad799e60f83",
@@ -230,7 +241,7 @@ def generate_manifest(products):
         'app_id': 'com.shwapno',
         'api_base': 'https://store-api.shwapno.com/en/api',
         'headers': {
-            'User-Agent': 'shwapno.flutter.android',
+            'User-Agent': random.choice(USER_AGENTS),
             'Accept': 'application/json',
             'client-type': 'App',
             'customer': 'fbbbb451-a780-4101-88e0-aad799e60f83',
