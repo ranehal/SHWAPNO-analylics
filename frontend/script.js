@@ -1653,7 +1653,7 @@ async function openDetailedChart(product) {
     
     const ctx = document.getElementById('price-history-chart').getContext('2d');
     const historyView = buildHistoryView(product);
-    const history = historyView.rows;
+    const history = expandDailyRange(historyView.rows);
     const rawDates = history.map(h => h.date);
     const labels = formatChartDates(rawDates);
     renderHistoryAccessState(historyView);
@@ -3040,6 +3040,31 @@ function setPremiumUnlocked(unlocked, persist = true) {
     if (mobileAnalytics) mobileAnalytics.className = premiumUnlocked ? 'fas fa-chart-line' : 'fas fa-lock';
     const lowButton = document.querySelector('.intel-btn[data-filter="low"]');
     if (lowButton) lowButton.textContent = 'All Time Low';
+}
+
+function expandDailyRange(rows) {
+    if (!Array.isArray(rows) || !rows.length) return rows || [];
+    const source = rows.filter(row => row && row.date).sort((a, b) => a.date.localeCompare(b.date));
+    const first = source[0];
+    let lastDate = source[source.length - 1].date;
+    if (lastDate < todayStr) lastDate = todayStr;
+    const byDate = new Map(source.map(row => [row.date, row]));
+    const expanded = [];
+    let lastReal = null;
+    const cursor = new Date(first.date + 'T12:00:00');
+    const end = new Date(lastDate + 'T12:00:00');
+    while (cursor <= end) {
+        const ds = cursor.getFullYear() + '-' + String(cursor.getMonth() + 1).padStart(2, '0') + '-' + String(cursor.getDate()).padStart(2, '0');
+        const row = byDate.get(ds);
+        if (row) {
+            expanded.push(row);
+            lastReal = row;
+        } else if (lastReal) {
+            expanded.push({ date: ds, price: lastReal.price, normalized_price: lastReal.normalized_price, _carry: true });
+        }
+        cursor.setDate(cursor.getDate() + 1);
+    }
+    return expanded;
 }
 
 function buildHistoryView(product) {
