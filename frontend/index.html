@@ -489,14 +489,186 @@
 </div>
 </section>
 </div>
+<div class="premium-intent-note" hidden="" id="premium-intent-note"></div>
+</div>
+<div class="plan-grid">
+<button class="plan-card active" data-plan="monthly" data-price="199" type="button"><span class="plan-radio"></span><span class="plan-card-top"><small>Flexible access</small><b>Monthly</b></span><span class="plan-price"><strong>199 Tk</strong><em>/ month</em></span><span class="plan-feature-list"><span><i class="fas fa-check"></i> Full history and analytics</span><span><i class="fas fa-check"></i> Browser, email and Telegram alerts</span><span><i class="fas fa-check"></i> Cancel whenever you need</span></span></button>
+<button class="plan-card recommended" data-plan="yearly" data-price="999" type="button"><span class="save-ribbon">Save 58%</span><span class="plan-radio"></span><span class="plan-card-top"><small>Best value</small><b>Yearly</b></span><span class="plan-price"><strong>999 Tk</strong><em>/ year</em></span><span class="plan-feature-list"><span><i class="fas fa-check"></i> Everything in Monthly</span><span><i class="fas fa-check"></i> Effective 83.25 Tk per month</span><span><i class="fas fa-check"></i> One payment, twelve months</span></span></button>
+</div>
+<div aria-label="Free and Premium feature comparison" class="premium-comparison">
+<div class="comparison-row comparison-head"><span>Feature</span><b>Free</b><strong>Premium</strong></div>
+<div class="comparison-row"><span><i class="fas fa-clock-rotate-left"></i> Price history</span><b>All-time low</b><strong>All dates &amp; trends</strong></div>
+<div class="comparison-row"><span><i class="fas fa-chart-line"></i> Market analytics</span><b><i class="fas fa-minus"></i></b><strong><i class="fas fa-check"></i> Full suite</strong></div>
+<div class="comparison-row"><span><i class="fas fa-bell"></i> Price monitor alerts</span><b><i class="fas fa-minus"></i></b><strong><i class="fas fa-check"></i> Unlimited</strong></div>
+<div class="comparison-row"><span><i class="fas fa-window-maximize"></i> Browser notifications</span><b><i class="fas fa-minus"></i></b><strong><i class="fas fa-check"></i></strong></div>
+<div class="comparison-row"><span><i class="fas fa-envelope"></i> Email alerts</span><b><i class="fas fa-minus"></i></b><strong><i class="fas fa-check"></i></strong></div>
+<div class="comparison-row"><span><i class="fab fa-telegram"></i> Telegram bot messages</span><b><i class="fas fa-minus"></i></b><strong><i class="fas fa-check"></i></strong></div>
+<div class="comparison-row"><span><i class="fas fa-calendar-days"></i> Custom date ranges</span><b>All-time low</b><strong>Every range</strong></div>
+</div>
+<button class="premium-primary premium-payment-cta" id="continue-payment-btn" type="button"><span>Continue with bKash</span><i class="fas fa-arrow-right"></i></button>
+<button class="premium-link" id="show-unlock-step-btn" type="button"><i class="fas fa-key"></i> I already have an unlock key</button>
+</section>
+<section class="premium-step" id="premium-payment-step">
+<button class="premium-back" data-back="plans" type="button"><i class="fas fa-arrow-left"></i> Plans</button>
+<div class="payment-heading"><span class="bkash-mark">b</span><div><small>Send payment with bKash</small><h2 id="payment-plan-title">199 Tk monthly</h2></div></div>
+<div class="payment-grid">
+<div class="qr-frame"><img alt="bKash payment QR code" id="bkash-qr" src="qr.png"/><span>Replace demo qr.png with your live merchant QR</span></div>
+<div class="payment-instructions"><ol><li>Scan the QR and open the bKash payment screen.</li><li>Paste the exact 5-character code below into the <b>Reference</b> field while paying.</li><li>Submit payment only after confirming the same code is shown.</li></ol><div class="reference-box rgb-reference"><span>bKash payment reference code</span><strong id="payment-reference">-----</strong><button id="copy-reference-btn" title="Copy reference code" type="button"><i class="fas fa-copy"></i></button><small>Required to match and verify your payment</small></div><button class="premium-primary" id="payment-done-btn" type="button"><i class="fas fa-receipt"></i><span>I paid using this reference code</span></button><small class="verification-note">Frontend demo only: connect this action to your payment verification endpoint.</small></div>
+</div>
+</section>
+<section class="premium-step" id="premium-unlock-step">
+<button class="premium-back" data-back="plans" type="button"><i class="fas fa-arrow-left"></i> Plans</button>
+<div class="unlock-vault"><span class="vault-icon"><i class="fas fa-vault"></i></span><p class="premium-eyebrow">Subscriber access</p><h2>Unlock encrypted history</h2><p>Enter the premium passphrase. It is used in-memory to decrypt the archive and is never saved by this page.</p><label class="unlock-field"><i class="fas fa-key"></i><input autocomplete="off" id="premium-passphrase" placeholder="Enter premium passphrase" type="password"/><button aria-label="Show passphrase" id="toggle-passphrase" type="button"><i class="fas fa-eye"></i></button></label><div class="unlock-status" id="unlock-status" role="status"></div><button class="premium-primary" id="unlock-submit-btn" type="button"><span>Decrypt premium data</span><i class="fas fa-unlock-keyhole"></i></button><small class="demo-key-note">Standalone demo key: <code>GODDEMO</code></small></div>
+</section>
+<section class="premium-step" id="premium-success-step">
+<div class="premium-success"><span><i class="fas fa-check"></i></span><h2>Premium unlocked</h2><p>Complete histories, analytics and price-monitor delivery channels are now available for this browser session.</p><button class="premium-primary" id="premium-success-close" type="button">Explore full intelligence</button></div>
+</section>
+</div>
+</div>
+<!-- Analytics Dashboard Modal -->
+<div aria-labelledby="analytics-title" aria-modal="true" class="modal" id="analytics-modal" role="dialog">
+<div class="modal-content full-screen-modal analytics-modal-shell">
+<div class="modal-header analytics-modal-header">
+<div>
+<h2 id="analytics-title"><i class="fas fa-chart-line"></i> Market Intelligence</h2>
+<div class="analytics-context" id="analytics-context">Combined market view</div>
+</div>
+<div class="analytics-header-actions">
+<button class="btn-icon" id="analytics-export-btn"><i class="fas fa-file-export"></i> Export CSV</button>
+<span aria-label="Close analytics" class="close-modal" data-modal="analytics-modal">×</span>
+</div>
+</div>
+<div aria-label="Analytics filters" class="analytics-toolbar">
+<div aria-label="Analytics scope" class="analytics-scope-toggle" role="group">
+<button class="analytics-scope-btn active" data-scope="combined"><i class="fas fa-layer-group"></i> Combined</button>
+<button class="analytics-scope-btn" data-scope="store"><i class="fas fa-store"></i> Per shop</button>
+<button class="analytics-scope-btn" data-scope="category"><i class="fas fa-tags"></i> Per category</button>
+</div>
+<label class="analytics-filter-field">
+<span>Shop</span>
+<select disabled="" id="analytics-store-filter"></select>
+</label>
+<label class="analytics-filter-field">
+<span>Category</span>
+<select disabled="" id="analytics-category-filter"></select>
+</label>
+<label class="analytics-filter-field">
+<span>Unit</span>
+<select id="analytics-unit-filter">
+<option value="all">All units</option>
+<option value="kg">KG</option>
+<option value="liter">LTR</option>
+<option value="piece">PCS</option>
+</select>
+</label>
+<label class="analytics-filter-field">
+<span>Window</span>
+<select id="analytics-window-filter">
+<option value="7">7 days</option>
+<option selected="" value="30">30 days</option>
+<option value="90">90 days</option>
+<option value="all">All history</option>
+</select>
+</label>
+<button class="btn-icon analytics-refresh" id="analytics-refresh-btn"><i class="fas fa-sync-alt"></i> Refresh</button>
+</div>
+<div aria-label="Analytics sections" class="analytics-tabs" role="tablist">
+<button class="analytics-tab active" data-tab="overview"><i class="fas fa-gauge-high"></i> Overview</button>
+<button class="analytics-tab" data-tab="pricing"><i class="fas fa-coins"></i> Pricing</button>
+<button class="analytics-tab" data-tab="deals"><i class="fas fa-bolt"></i> Deals</button>
+<button class="analytics-tab" data-tab="coverage"><i class="fas fa-table-cells"></i> Coverage</button>
+<button class="analytics-tab" data-tab="quality"><i class="fas fa-shield-halved"></i> Data quality</button>
+</div>
+<div class="modal-body-content analytics-body" id="analytics-body">
+<div class="analytics-loading" id="analytics-loading">
+<div class="spinner"></div>
+<span>Building intelligence model...</span>
+</div>
+<div id="analytics-content" style="display:none;">
+<section class="analytics-panel active" data-analytics-panel="overview">
+<div class="insight-strip" id="analytics-insight-strip"></div>
+<div class="kpi-grid" id="kpi-grid"></div>
+<div class="analytics-chart-row analytics-chart-row-hero">
+<article class="analytics-chart-box chart-wide">
+<div class="chart-box-heading"><span>Market trend</span><small>Average and median unit price</small></div>
+<canvas id="trend-chart"></canvas>
+</article>
+<article class="analytics-chart-box chart-compact">
+<div class="chart-box-heading"><span>Market health</span><small>Deal / fair / wait mix</small></div>
+<canvas id="health-chart"></canvas>
+</article>
+</div>
+<div class="analytics-chart-row">
+<article class="analytics-chart-box"><canvas id="store-product-count-chart"></canvas></article>
+<article class="analytics-chart-box"><canvas id="store-avg-price-chart"></canvas></article>
+</div>
+</section>
+<section class="analytics-panel" data-analytics-panel="pricing">
+<div class="analytics-chart-row">
+<article class="analytics-chart-box"><canvas id="price-distribution-chart"></canvas></article>
+<article class="analytics-chart-box"><canvas id="unit-type-split-chart"></canvas></article>
+</div>
+<div class="analytics-chart-row">
+<article class="analytics-chart-box chart-wide"><canvas id="category-price-chart"></canvas></article>
+<article class="analytics-chart-box"><canvas id="volatility-chart"></canvas></article>
+</div>
+<div class="analytics-section">
+<div class="section-heading-row">
+<h3 class="analytics-section-title">Cross-shop price comparison</h3>
+<span class="section-note">Matched by product name, category and unit type</span>
+</div>
+<div class="table-scroll" id="cross-store-table-container"></div>
+</div>
+</section>
+<section class="analytics-panel" data-analytics-panel="deals">
+<div class="kpi-grid compact-kpi-grid" id="deal-kpi-grid"></div>
+<div class="analytics-chart-row">
+<article class="analytics-chart-box"><canvas id="deal-split-chart"></canvas></article>
+<article class="analytics-chart-box"><canvas id="savings-opportunity-chart"></canvas></article>
+</div>
+<div class="analytics-section">
+<h3 class="analytics-section-title">Top movers &amp; value opportunities</h3>
+<div class="movers-grid" id="movers-grid"></div>
+</div>
+</section>
+<section class="analytics-panel" data-analytics-panel="coverage">
+<div class="analytics-chart-row">
+<article class="analytics-chart-box chart-wide"><canvas id="category-distribution-chart"></canvas></article>
+<article class="analytics-chart-box"><canvas id="market-share-chart"></canvas></article>
+</div>
+<div class="analytics-section">
+<h3 class="analytics-section-title">Shop scorecards</h3>
+<div class="store-dive-grid" id="store-deep-dive"></div>
+</div>
+<div class="analytics-section">
+<h3 class="analytics-section-title">Category scorecards</h3>
+<div class="category-dive-grid" id="category-deep-dive"></div>
+</div>
+<div class="analytics-section">
+<h3 class="analytics-section-title">Shop × category coverage matrix</h3>
+<div class="table-scroll" id="coverage-heatmap"></div>
+</div>
+</section>
+<section class="analytics-panel" data-analytics-panel="quality">
+<div class="kpi-grid compact-kpi-grid" id="quality-kpi-grid"></div>
+<div class="analytics-section">
+<h3 class="analytics-section-title">Freshness by shop</h3>
+<div class="table-scroll" id="freshness-table"></div>
+</div>
+<div class="analytics-section">
+<h3 class="analytics-section-title">Potential anomalies</h3>
+<div class="table-scroll" id="anomaly-table"></div>
+</div>
+</section>
+</div>
 </div>
 </div>
 </div>
 
 
-<script src="shwapno_manifest.js?v=20260731a"></script>
-<script src="shwapno_data.js?v=20260731a"></script>
-<script src="script.js?v=20260731a"></script>
+<script src="shwapno_manifest.js?v=20260811a"></script>
+<script src="shwapno_data.js?v=20260811a"></script>
+<script src="script.js?v=20260811a"></script>
 <footer style="text-align:center;padding:12px 0;font-size:12px;color:#555;font-family:'Quicksand',sans-serif;background:transparent;">ভালোবাসা অবিরাম - NEHAL 💖</footer>
 </body>
 </html>

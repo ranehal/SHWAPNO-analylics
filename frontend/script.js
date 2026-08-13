@@ -34,7 +34,7 @@ let showAllProducts = false;
 let searchQuery = '';
 let activeUnitFilters = new Set(['kg', 'liter', 'piece']);
 let sortOption = 'unit_price_asc';
-let activeIntelFilter = 'low';
+let activeIntelFilter = 'all';
 let compareModeActive = false;
 let immersiveModeActive = false;
 let customDropThreshold = Math.min(95, Math.max(1, parseInt(safeStorage.getItem('god_custom_drop') || '12', 10) || 12));
@@ -858,7 +858,7 @@ function renderProducts() {
         if (showFavoritesOnly && !p.isFavorite) return false;
         if (searchQuery && !p.name.toLowerCase().includes(searchQuery) && !p.category.toLowerCase().includes(searchQuery)) return false;
         if (!activeUnitFilters.has(p.unit_type)) return false;
-        if (recentDaysFilter > 0 && p.ageDays > recentDaysFilter) return false;
+        if (showNewOnly && recentDaysFilter > 0 && p.ageDays > recentDaysFilter) return false;
         if (activeIntelFilter === 'great') return p.normalized_price < (p.avgPrice * greatDealThreshold);
         if (activeIntelFilter === 'good') return p.normalized_price < (p.avgPrice * goodBuyThreshold);
         if (activeIntelFilter === 'customdrop') return p.avgPrice > 0 && p.normalized_price <= (p.avgPrice * (1 - customDropThreshold / 100));
