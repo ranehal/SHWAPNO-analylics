@@ -32,6 +32,16 @@ Shwapno supermarket scraper, multi-day price history aggregator, and static web 
 
 ---
 
+## 📸 Screenshots
+
+> Captured from a live localhost run of the dashboard.
+
+| Dashboard |
+| :---: |
+| ![CartUp Analytics Dashboard](screenshots/dashboard.png) |
+
+---
+
 ## 🏗️ System Architecture
 
 ```mermaid
