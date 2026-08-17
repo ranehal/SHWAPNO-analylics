@@ -40249,7 +40249,7 @@ window.shwapno_data = [
       "2026-08-01": 1400,
       "2026-08-17": 1400
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff435ae4f247aa6ee9c77",
@@ -45440,7 +45440,7 @@ window.shwapno_data = [
       "2026-08-01": 60,
       "2026-08-17": 60
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01ed310037bf287fc461",
@@ -45469,7 +45469,7 @@ window.shwapno_data = [
       "2026-08-01": 55,
       "2026-08-17": 55
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01ef310037bf287fc537",
@@ -45498,7 +45498,7 @@ window.shwapno_data = [
       "2026-08-01": 95,
       "2026-08-17": 95
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01f2310037bf287fc88b",
@@ -45527,7 +45527,7 @@ window.shwapno_data = [
       "2026-08-01": 170,
       "2026-08-17": 170
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01f3310037bf287fc9c7",
@@ -45556,7 +45556,7 @@ window.shwapno_data = [
       "2026-08-01": 85,
       "2026-08-17": 85
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01f4310037bf287fcb62",
@@ -45585,7 +45585,7 @@ window.shwapno_data = [
       "2026-08-01": 66,
       "2026-08-17": 66
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01f5310037bf287fcbe6",
@@ -45614,7 +45614,7 @@ window.shwapno_data = [
       "2026-08-01": 190,
       "2026-08-17": 190
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69d48ceb846757b03365df78",
@@ -45643,7 +45643,7 @@ window.shwapno_data = [
       "2026-08-01": 55,
       "2026-08-17": 55
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff1b6ae4f247aa6ee91d4",
@@ -46861,7 +46861,7 @@ window.shwapno_data = [
       "2026-08-01": 240,
       "2026-08-17": 240
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6743fe153c6f5a4cd36e9d50",
@@ -46890,7 +46890,7 @@ window.shwapno_data = [
       "2026-08-01": 45,
       "2026-08-17": 45
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01ec310037bf287fc0eb",
@@ -91666,7 +91666,7 @@ window.shwapno_data = [
       "2026-08-01": 120,
       "2026-08-17": 120
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff408ae4f247aa6ee98b1",
@@ -91695,7 +91695,7 @@ window.shwapno_data = [
       "2026-08-01": 120,
       "2026-08-17": 120
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec58ae4f247aa6ee6dbe",
@@ -91724,7 +91724,7 @@ window.shwapno_data = [
       "2026-08-01": 90,
       "2026-08-17": 90
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec56ae4f247aa6ee6d7c",
@@ -91753,7 +91753,7 @@ window.shwapno_data = [
       "2026-08-01": 15,
       "2026-08-17": 15
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67189e8688745283cdedc8d2",
@@ -91782,7 +91782,7 @@ window.shwapno_data = [
       "2026-08-01": 110,
       "2026-08-17": 110
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69c38586d96c7c8a3e6a6dac",
@@ -91811,7 +91811,7 @@ window.shwapno_data = [
       "2026-08-01": 150,
       "2026-08-17": 150
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff7364029080802d13933",
@@ -97582,7 +97582,7 @@ window.shwapno_data = [
       "2026-07-31": 190,
       "2026-08-17": 190
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01f8310037bf287fd053",
@@ -97611,7 +97611,7 @@ window.shwapno_data = [
       "2026-07-31": 100,
       "2026-08-17": 100
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed5b4029080802d03943",
@@ -97640,7 +97640,7 @@ window.shwapno_data = [
       "2026-07-31": 110,
       "2026-08-17": 110
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "68944bb8125ff23175c8f0c5",
@@ -97669,7 +97669,7 @@ window.shwapno_data = [
       "2026-07-31": 230,
       "2026-08-17": 230
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec53ae4f247aa6ee6d2b",
@@ -97698,7 +97698,7 @@ window.shwapno_data = [
       "2026-07-31": 38,
       "2026-08-17": 38
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec55ae4f247aa6ee6d67",
@@ -97727,7 +97727,7 @@ window.shwapno_data = [
       "2026-07-31": 24,
       "2026-08-17": 24
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed584029080802d038f5",
@@ -97756,7 +97756,7 @@ window.shwapno_data = [
       "2026-07-31": 25,
       "2026-08-17": 25
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff7114029080802d13660",
@@ -97785,7 +97785,7 @@ window.shwapno_data = [
       "2026-07-31": 61,
       "2026-08-17": 61
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff7104029080802d13654",
@@ -97814,7 +97814,7 @@ window.shwapno_data = [
       "2026-07-31": 50,
       "2026-08-17": 50
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff5894029080802d12db5",
@@ -97843,7 +97843,7 @@ window.shwapno_data = [
       "2026-07-31": 75,
       "2026-08-17": 75
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "66825ef35f4f66ade1b509fe",
@@ -97872,7 +97872,7 @@ window.shwapno_data = [
       "2026-07-31": 50,
       "2026-08-17": 50
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67189de688745283cdece0c7",
@@ -97901,7 +97901,7 @@ window.shwapno_data = [
       "2026-07-31": 24,
       "2026-08-17": 24
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69c38556d96c7c8a3e697968",
@@ -97930,7 +97930,7 @@ window.shwapno_data = [
       "2026-07-31": 350,
       "2026-08-17": 350
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "687c7b61f25cf15a77929ce6",
@@ -97959,7 +97959,7 @@ window.shwapno_data = [
       "2026-07-31": 75,
       "2026-08-17": 75
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed624029080802d03a2a",
@@ -97988,7 +97988,7 @@ window.shwapno_data = [
       "2026-07-31": 940,
       "2026-08-17": 940
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed634029080802d03a45",
@@ -98017,7 +98017,7 @@ window.shwapno_data = [
       "2026-07-31": 475,
       "2026-08-17": 475
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed604029080802d039d3",
@@ -98046,7 +98046,7 @@ window.shwapno_data = [
       "2026-07-31": 155,
       "2026-08-17": 155
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67f7cbed750c4fe916465378",
@@ -98075,7 +98075,7 @@ window.shwapno_data = [
       "2026-07-31": 72,
       "2026-08-17": 72
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff8954029080802d13d1f",
@@ -98104,7 +98104,7 @@ window.shwapno_data = [
       "2026-07-31": 61,
       "2026-08-17": 61
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff8a84029080802d13e69",
@@ -98133,7 +98133,7 @@ window.shwapno_data = [
       "2026-07-31": 348,
       "2026-08-17": 348
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff8a94029080802d13e6c",
@@ -98162,7 +98162,7 @@ window.shwapno_data = [
       "2026-07-31": 348,
       "2026-08-17": 348
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff8ab4029080802d13e96",
@@ -98191,7 +98191,7 @@ window.shwapno_data = [
       "2026-07-31": 230,
       "2026-08-17": 230
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff7344029080802d13915",
@@ -98220,7 +98220,7 @@ window.shwapno_data = [
       "2026-07-31": 95,
       "2026-08-17": 95
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67189e4d88745283cded6d79",
@@ -98249,7 +98249,7 @@ window.shwapno_data = [
       "2026-07-31": 95,
       "2026-08-17": 95
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6655aa1a112c66696f32076c",
@@ -98278,7 +98278,7 @@ window.shwapno_data = [
       "2026-07-31": 220,
       "2026-08-17": 220
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff8934029080802d13d01",
@@ -98307,7 +98307,7 @@ window.shwapno_data = [
       "2026-07-31": 110,
       "2026-08-17": 110
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff9f74029080802d14528",
@@ -98336,7 +98336,7 @@ window.shwapno_data = [
       "2026-07-31": 80,
       "2026-08-17": 80
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "68cb8911f0606d38f1c4db65",
@@ -98365,7 +98365,7 @@ window.shwapno_data = [
       "2026-07-31": 80,
       "2026-08-17": 80
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "696e01f8310037bf287fdceb",
@@ -98394,7 +98394,7 @@ window.shwapno_data = [
       "2026-07-31": 160,
       "2026-08-17": 160
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6637664e694b3e503625eff5",
@@ -98423,7 +98423,7 @@ window.shwapno_data = [
       "2026-07-31": 280,
       "2026-08-17": 280
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec59ae4f247aa6ee6df7",
@@ -98452,7 +98452,7 @@ window.shwapno_data = [
       "2026-07-31": 400,
       "2026-08-17": 400
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec58ae4f247aa6ee6dca",
@@ -98481,7 +98481,7 @@ window.shwapno_data = [
       "2026-07-31": 542,
       "2026-08-17": 542
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec5aae4f247aa6ee6e00",
@@ -98510,7 +98510,7 @@ window.shwapno_data = [
       "2026-07-31": 50,
       "2026-08-17": 50
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed544029080802d0386e",
@@ -98539,7 +98539,7 @@ window.shwapno_data = [
       "2026-07-31": 25,
       "2026-08-17": 25
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "68f753601a33a98685c878e6",
@@ -98568,7 +98568,7 @@ window.shwapno_data = [
       "2026-07-31": 10,
       "2026-08-17": 10
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff58e4029080802d12e18",
@@ -98597,7 +98597,7 @@ window.shwapno_data = [
       "2026-07-31": 350,
       "2026-08-17": 350
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec55ae4f247aa6ee6d6d",
@@ -98626,7 +98626,7 @@ window.shwapno_data = [
       "2026-07-31": 26,
       "2026-08-17": 26
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff431ae4f247aa6ee9c23",
@@ -98655,7 +98655,7 @@ window.shwapno_data = [
       "2026-07-31": 255,
       "2026-08-17": 255
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff57c4029080802d12c9e",
@@ -98684,7 +98684,7 @@ window.shwapno_data = [
       "2026-07-31": 145,
       "2026-08-17": 145
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff41cae4f247aa6ee9a5e",
@@ -98713,7 +98713,7 @@ window.shwapno_data = [
       "2026-07-31": 10,
       "2026-08-17": 10
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff1dfae4f247aa6ee952e",
@@ -98742,7 +98742,7 @@ window.shwapno_data = [
       "2026-07-31": 50,
       "2026-08-17": 50
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6a0d48da37408ba700b82503",
@@ -98771,7 +98771,7 @@ window.shwapno_data = [
       "2026-07-31": 290,
       "2026-08-17": 290
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff1e2ae4f247aa6ee9573",
@@ -98800,7 +98800,7 @@ window.shwapno_data = [
       "2026-07-31": 165,
       "2026-08-17": 165
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff5854029080802d12d4f",
@@ -98829,7 +98829,7 @@ window.shwapno_data = [
       "2026-07-31": 190,
       "2026-08-17": 190
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "68f8a5971d7b0f7351f4a629",
@@ -98858,7 +98858,7 @@ window.shwapno_data = [
       "2026-07-31": 166,
       "2026-08-17": 166
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff7144029080802d13699",
@@ -98887,7 +98887,7 @@ window.shwapno_data = [
       "2026-07-31": 44,
       "2026-08-17": 44
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67189cf388745283cdeb5c93",
@@ -98916,7 +98916,7 @@ window.shwapno_data = [
       "2026-07-31": 212,
       "2026-08-17": 212
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69c3860dd96c7c8a3e6cea59",
@@ -98945,7 +98945,7 @@ window.shwapno_data = [
       "2026-07-31": 360,
       "2026-08-17": 360
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff43aae4f247aa6ee9cd7",
@@ -98974,7 +98974,7 @@ window.shwapno_data = [
       "2026-07-31": 170,
       "2026-08-17": 170
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69c3851bd96c7c8a3e68a0cc",
@@ -99003,7 +99003,7 @@ window.shwapno_data = [
       "2026-07-31": 640,
       "2026-08-17": 640
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed6b4029080802d03b41",
@@ -99032,7 +99032,7 @@ window.shwapno_data = [
       "2026-07-31": 100,
       "2026-08-17": 100
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6680f6dad214e738cb912a66",
@@ -99061,7 +99061,7 @@ window.shwapno_data = [
       "2026-07-31": 435,
       "2026-08-17": 435
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "675e8f974366b500bf667db5",
@@ -99090,7 +99090,7 @@ window.shwapno_data = [
       "2026-07-31": 185,
       "2026-08-17": 185
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "695cb823512100b63bd8198a",
@@ -99119,7 +99119,7 @@ window.shwapno_data = [
       "2026-07-31": 105,
       "2026-08-17": 105
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "687c7b62f25cf15a7792a02e",
@@ -99148,7 +99148,7 @@ window.shwapno_data = [
       "2026-07-31": 150,
       "2026-08-17": 150
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6971ac8c190f1c4d72821f2f",
@@ -99177,7 +99177,7 @@ window.shwapno_data = [
       "2026-07-31": 80,
       "2026-08-17": 80
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed6a4029080802d03b17",
@@ -99206,7 +99206,7 @@ window.shwapno_data = [
       "2026-07-31": 46,
       "2026-08-17": 46
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed714029080802d03c04",
@@ -99235,7 +99235,7 @@ window.shwapno_data = [
       "2026-07-31": 173,
       "2026-08-17": 173
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed754029080802d03c6d",
@@ -99264,7 +99264,7 @@ window.shwapno_data = [
       "2026-07-31": 50,
       "2026-08-17": 50
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efed764029080802d03c9a",
@@ -99293,7 +99293,7 @@ window.shwapno_data = [
       "2026-07-31": 49,
       "2026-08-17": 49
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "672b2d5a9c40d125fe7c4c43",
@@ -99322,7 +99322,7 @@ window.shwapno_data = [
       "2026-07-31": 190,
       "2026-08-17": 190
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efef02ae4f247aa6ee7bbf",
@@ -99351,7 +99351,7 @@ window.shwapno_data = [
       "2026-07-31": 240,
       "2026-08-17": 240
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff1c0ae4f247aa6ee92af",
@@ -99380,7 +99380,7 @@ window.shwapno_data = [
       "2026-07-31": 150,
       "2026-08-17": 150
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67f7cbef750c4fe91646684c",
@@ -99409,7 +99409,7 @@ window.shwapno_data = [
       "2026-07-31": 285,
       "2026-08-17": 285
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69f2fa9a4a03eb201149c432",
@@ -99438,7 +99438,7 @@ window.shwapno_data = [
       "2026-07-31": 475,
       "2026-08-17": 475
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67f7cc4d750c4fe916492bbe",
@@ -99467,7 +99467,7 @@ window.shwapno_data = [
       "2026-07-31": 129,
       "2026-08-17": 129
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67f7cbeb750c4fe916464a82",
@@ -99496,7 +99496,7 @@ window.shwapno_data = [
       "2026-07-31": 335,
       "2026-08-17": 335
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efeeeeae4f247aa6ee79ac",
@@ -99525,7 +99525,7 @@ window.shwapno_data = [
       "2026-07-31": 90,
       "2026-08-17": 90
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "688690590935bbc611c432d4",
@@ -99554,7 +99554,7 @@ window.shwapno_data = [
       "2026-07-31": 390,
       "2026-08-17": 390
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efeef3ae4f247aa6ee7a36",
@@ -99583,7 +99583,7 @@ window.shwapno_data = [
       "2026-07-31": 750,
       "2026-08-17": 750
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65effa094029080802d1464b",
@@ -99612,7 +99612,7 @@ window.shwapno_data = [
       "2026-07-31": 394,
       "2026-08-17": 394
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69c385ffd96c7c8a3e6cb028",
@@ -99641,7 +99641,7 @@ window.shwapno_data = [
       "2026-07-31": 100,
       "2026-08-17": 100
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efeef0ae4f247aa6ee79dc",
@@ -99670,7 +99670,7 @@ window.shwapno_data = [
       "2026-07-31": 100,
       "2026-08-17": 100
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff8aa4029080802d13e84",
@@ -99699,7 +99699,7 @@ window.shwapno_data = [
       "2026-07-31": 190,
       "2026-08-17": 190
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "68342dcc6519fd7191c0ad74",
@@ -99728,7 +99728,7 @@ window.shwapno_data = [
       "2026-07-31": 140,
       "2026-08-17": 140
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6a210f35242267db67f6ab3b",
@@ -99757,7 +99757,7 @@ window.shwapno_data = [
       "2026-07-31": 370,
       "2026-08-17": 370
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff8cb4029080802d140ac",
@@ -99786,7 +99786,7 @@ window.shwapno_data = [
       "2026-07-31": 500,
       "2026-08-17": 500
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65eff9e74029080802d14402",
@@ -99815,7 +99815,7 @@ window.shwapno_data = [
       "2026-07-31": 370,
       "2026-08-17": 370
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "67189dc388745283cdec9c2f",
@@ -99844,7 +99844,7 @@ window.shwapno_data = [
       "2026-07-31": 270,
       "2026-08-17": 270
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6773bc2b7d368ab1afc5c3fa",
@@ -99873,7 +99873,7 @@ window.shwapno_data = [
       "2026-07-31": 120,
       "2026-08-17": 120
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6773bc2b7d368ab1afc5c4e0",
@@ -99902,7 +99902,7 @@ window.shwapno_data = [
       "2026-07-31": 120,
       "2026-08-17": 120
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "6a057b679570281f8f39c6d0",
@@ -99931,7 +99931,7 @@ window.shwapno_data = [
       "2026-07-31": 190,
       "2026-08-17": 190
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "68cb8915f0606d38f1c4dc61",
@@ -99960,7 +99960,7 @@ window.shwapno_data = [
       "2026-07-31": 380,
       "2026-08-17": 380
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69f98c2dca4e5721e36ff544",
@@ -99989,7 +99989,7 @@ window.shwapno_data = [
       "2026-07-31": 199,
       "2026-08-17": 199
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65effb89ae4f247aa6eeaf09",
@@ -100018,7 +100018,7 @@ window.shwapno_data = [
       "2026-07-31": 47.5,
       "2026-08-17": 47.5
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69e739036867a8559a2ce0a8",
@@ -100047,7 +100047,7 @@ window.shwapno_data = [
       "2026-07-31": 151,
       "2026-08-17": 151
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "69f98c1cca4e5721e36ff25e",
@@ -100076,7 +100076,7 @@ window.shwapno_data = [
       "2026-07-31": 62.5,
       "2026-08-17": 62.5
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "668f62be5e6816d77da1e874",
@@ -100105,7 +100105,7 @@ window.shwapno_data = [
       "2026-07-31": 99,
       "2026-08-17": 99
     },
-    "hist_count": 1
+    "hist_count": 2
   },
   {
     "id": "65efec53ae4f247aa6ee6d13",
@@ -100129,7 +100129,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 185,
       "2026-08-17": 185
@@ -100157,7 +100157,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 310,
       "2026-08-17": 310
@@ -100185,7 +100185,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 370,
       "2026-08-17": 370
@@ -100213,7 +100213,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 125,
       "2026-08-17": 125
@@ -100241,7 +100241,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 120,
       "2026-08-17": 120
@@ -100269,7 +100269,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 133,
       "2026-08-17": 133
@@ -100297,7 +100297,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 130,
       "2026-08-17": 130
@@ -100325,7 +100325,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 243,
       "2026-08-17": 243
@@ -100353,7 +100353,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 240,
       "2026-08-17": 240
@@ -100381,7 +100381,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 240,
       "2026-08-17": 240
@@ -100409,7 +100409,7 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0,
+    "hist_count": 2,
     "price_history": {
       "2026-07-30": 80,
       "2026-08-17": 80
