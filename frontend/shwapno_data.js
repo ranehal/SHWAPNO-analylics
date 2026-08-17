@@ -40246,7 +40246,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 1400
+      "2026-08-01": 1400,
+      "2026-08-17": 1400
     },
     "hist_count": 1
   },
@@ -45436,7 +45437,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 60
+      "2026-08-01": 60,
+      "2026-08-17": 60
     },
     "hist_count": 1
   },
@@ -45464,7 +45466,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 55
+      "2026-08-01": 55,
+      "2026-08-17": 55
     },
     "hist_count": 1
   },
@@ -45492,7 +45495,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 95
+      "2026-08-01": 95,
+      "2026-08-17": 95
     },
     "hist_count": 1
   },
@@ -45520,7 +45524,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 170
+      "2026-08-01": 170,
+      "2026-08-17": 170
     },
     "hist_count": 1
   },
@@ -45548,7 +45553,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 85
+      "2026-08-01": 85,
+      "2026-08-17": 85
     },
     "hist_count": 1
   },
@@ -45576,7 +45582,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 66
+      "2026-08-01": 66,
+      "2026-08-17": 66
     },
     "hist_count": 1
   },
@@ -45604,7 +45611,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 190
+      "2026-08-01": 190,
+      "2026-08-17": 190
     },
     "hist_count": 1
   },
@@ -45632,7 +45640,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 55
+      "2026-08-01": 55,
+      "2026-08-17": 55
     },
     "hist_count": 1
   },
@@ -46849,7 +46858,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 240
+      "2026-08-01": 240,
+      "2026-08-17": 240
     },
     "hist_count": 1
   },
@@ -46877,7 +46887,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 45
+      "2026-08-01": 45,
+      "2026-08-17": 45
     },
     "hist_count": 1
   },
@@ -91652,7 +91663,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 120
+      "2026-08-01": 120,
+      "2026-08-17": 120
     },
     "hist_count": 1
   },
@@ -91680,7 +91692,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 120
+      "2026-08-01": 120,
+      "2026-08-17": 120
     },
     "hist_count": 1
   },
@@ -91708,7 +91721,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 90
+      "2026-08-01": 90,
+      "2026-08-17": 90
     },
     "hist_count": 1
   },
@@ -91736,7 +91750,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 15
+      "2026-08-01": 15,
+      "2026-08-17": 15
     },
     "hist_count": 1
   },
@@ -91764,7 +91779,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 110
+      "2026-08-01": 110,
+      "2026-08-17": 110
     },
     "hist_count": 1
   },
@@ -91792,7 +91808,8 @@ window.shwapno_data = [
     "first_seen": "2026-08-01",
     "last_seen": "2026-08-01",
     "price_history": {
-      "2026-08-01": 150
+      "2026-08-01": 150,
+      "2026-08-17": 150
     },
     "hist_count": 1
   },
@@ -97562,7 +97579,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 190
+      "2026-07-31": 190,
+      "2026-08-17": 190
     },
     "hist_count": 1
   },
@@ -97590,7 +97608,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 100
+      "2026-07-31": 100,
+      "2026-08-17": 100
     },
     "hist_count": 1
   },
@@ -97618,7 +97637,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 110
+      "2026-07-31": 110,
+      "2026-08-17": 110
     },
     "hist_count": 1
   },
@@ -97646,7 +97666,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 230
+      "2026-07-31": 230,
+      "2026-08-17": 230
     },
     "hist_count": 1
   },
@@ -97674,7 +97695,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 38
+      "2026-07-31": 38,
+      "2026-08-17": 38
     },
     "hist_count": 1
   },
@@ -97702,7 +97724,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 24
+      "2026-07-31": 24,
+      "2026-08-17": 24
     },
     "hist_count": 1
   },
@@ -97730,7 +97753,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 25
+      "2026-07-31": 25,
+      "2026-08-17": 25
     },
     "hist_count": 1
   },
@@ -97758,7 +97782,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 61
+      "2026-07-31": 61,
+      "2026-08-17": 61
     },
     "hist_count": 1
   },
@@ -97786,7 +97811,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 50
+      "2026-07-31": 50,
+      "2026-08-17": 50
     },
     "hist_count": 1
   },
@@ -97814,7 +97840,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 75
+      "2026-07-31": 75,
+      "2026-08-17": 75
     },
     "hist_count": 1
   },
@@ -97842,7 +97869,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 50
+      "2026-07-31": 50,
+      "2026-08-17": 50
     },
     "hist_count": 1
   },
@@ -97870,7 +97898,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 24
+      "2026-07-31": 24,
+      "2026-08-17": 24
     },
     "hist_count": 1
   },
@@ -97898,7 +97927,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 350
+      "2026-07-31": 350,
+      "2026-08-17": 350
     },
     "hist_count": 1
   },
@@ -97926,7 +97956,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 75
+      "2026-07-31": 75,
+      "2026-08-17": 75
     },
     "hist_count": 1
   },
@@ -97954,7 +97985,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 940
+      "2026-07-31": 940,
+      "2026-08-17": 940
     },
     "hist_count": 1
   },
@@ -97982,7 +98014,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 475
+      "2026-07-31": 475,
+      "2026-08-17": 475
     },
     "hist_count": 1
   },
@@ -98010,7 +98043,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 155
+      "2026-07-31": 155,
+      "2026-08-17": 155
     },
     "hist_count": 1
   },
@@ -98038,7 +98072,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-31",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 72
+      "2026-07-31": 72,
+      "2026-08-17": 72
     },
     "hist_count": 1
   },
@@ -98066,7 +98101,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 61
+      "2026-07-31": 61,
+      "2026-08-17": 61
     },
     "hist_count": 1
   },
@@ -98094,7 +98130,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 348
+      "2026-07-31": 348,
+      "2026-08-17": 348
     },
     "hist_count": 1
   },
@@ -98122,7 +98159,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 348
+      "2026-07-31": 348,
+      "2026-08-17": 348
     },
     "hist_count": 1
   },
@@ -98150,7 +98188,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 230
+      "2026-07-31": 230,
+      "2026-08-17": 230
     },
     "hist_count": 1
   },
@@ -98178,7 +98217,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 95
+      "2026-07-31": 95,
+      "2026-08-17": 95
     },
     "hist_count": 1
   },
@@ -98206,7 +98246,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 95
+      "2026-07-31": 95,
+      "2026-08-17": 95
     },
     "hist_count": 1
   },
@@ -98234,7 +98275,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 220
+      "2026-07-31": 220,
+      "2026-08-17": 220
     },
     "hist_count": 1
   },
@@ -98262,7 +98304,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 110
+      "2026-07-31": 110,
+      "2026-08-17": 110
     },
     "hist_count": 1
   },
@@ -98290,7 +98333,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 80
+      "2026-07-31": 80,
+      "2026-08-17": 80
     },
     "hist_count": 1
   },
@@ -98318,7 +98362,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 80
+      "2026-07-31": 80,
+      "2026-08-17": 80
     },
     "hist_count": 1
   },
@@ -98346,7 +98391,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 160
+      "2026-07-31": 160,
+      "2026-08-17": 160
     },
     "hist_count": 1
   },
@@ -98374,7 +98420,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 280
+      "2026-07-31": 280,
+      "2026-08-17": 280
     },
     "hist_count": 1
   },
@@ -98402,7 +98449,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 400
+      "2026-07-31": 400,
+      "2026-08-17": 400
     },
     "hist_count": 1
   },
@@ -98430,7 +98478,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 542
+      "2026-07-31": 542,
+      "2026-08-17": 542
     },
     "hist_count": 1
   },
@@ -98458,7 +98507,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 50
+      "2026-07-31": 50,
+      "2026-08-17": 50
     },
     "hist_count": 1
   },
@@ -98486,7 +98536,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 25
+      "2026-07-31": 25,
+      "2026-08-17": 25
     },
     "hist_count": 1
   },
@@ -98514,7 +98565,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 10
+      "2026-07-31": 10,
+      "2026-08-17": 10
     },
     "hist_count": 1
   },
@@ -98542,7 +98594,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 350
+      "2026-07-31": 350,
+      "2026-08-17": 350
     },
     "hist_count": 1
   },
@@ -98570,7 +98623,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 26
+      "2026-07-31": 26,
+      "2026-08-17": 26
     },
     "hist_count": 1
   },
@@ -98598,7 +98652,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 255
+      "2026-07-31": 255,
+      "2026-08-17": 255
     },
     "hist_count": 1
   },
@@ -98626,7 +98681,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 145
+      "2026-07-31": 145,
+      "2026-08-17": 145
     },
     "hist_count": 1
   },
@@ -98654,7 +98710,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 10
+      "2026-07-31": 10,
+      "2026-08-17": 10
     },
     "hist_count": 1
   },
@@ -98682,7 +98739,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 50
+      "2026-07-31": 50,
+      "2026-08-17": 50
     },
     "hist_count": 1
   },
@@ -98710,7 +98768,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 290
+      "2026-07-31": 290,
+      "2026-08-17": 290
     },
     "hist_count": 1
   },
@@ -98738,7 +98797,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 165
+      "2026-07-31": 165,
+      "2026-08-17": 165
     },
     "hist_count": 1
   },
@@ -98766,7 +98826,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 190
+      "2026-07-31": 190,
+      "2026-08-17": 190
     },
     "hist_count": 1
   },
@@ -98794,7 +98855,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 166
+      "2026-07-31": 166,
+      "2026-08-17": 166
     },
     "hist_count": 1
   },
@@ -98822,7 +98884,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 44
+      "2026-07-31": 44,
+      "2026-08-17": 44
     },
     "hist_count": 1
   },
@@ -98850,7 +98913,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 212
+      "2026-07-31": 212,
+      "2026-08-17": 212
     },
     "hist_count": 1
   },
@@ -98878,7 +98942,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 360
+      "2026-07-31": 360,
+      "2026-08-17": 360
     },
     "hist_count": 1
   },
@@ -98906,7 +98971,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 170
+      "2026-07-31": 170,
+      "2026-08-17": 170
     },
     "hist_count": 1
   },
@@ -98934,7 +99000,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 640
+      "2026-07-31": 640,
+      "2026-08-17": 640
     },
     "hist_count": 1
   },
@@ -98962,7 +99029,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 100
+      "2026-07-31": 100,
+      "2026-08-17": 100
     },
     "hist_count": 1
   },
@@ -98990,7 +99058,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 435
+      "2026-07-31": 435,
+      "2026-08-17": 435
     },
     "hist_count": 1
   },
@@ -99018,7 +99087,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 185
+      "2026-07-31": 185,
+      "2026-08-17": 185
     },
     "hist_count": 1
   },
@@ -99046,7 +99116,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 105
+      "2026-07-31": 105,
+      "2026-08-17": 105
     },
     "hist_count": 1
   },
@@ -99074,7 +99145,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 150
+      "2026-07-31": 150,
+      "2026-08-17": 150
     },
     "hist_count": 1
   },
@@ -99102,7 +99174,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 80
+      "2026-07-31": 80,
+      "2026-08-17": 80
     },
     "hist_count": 1
   },
@@ -99130,7 +99203,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 46
+      "2026-07-31": 46,
+      "2026-08-17": 46
     },
     "hist_count": 1
   },
@@ -99158,7 +99232,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 173
+      "2026-07-31": 173,
+      "2026-08-17": 173
     },
     "hist_count": 1
   },
@@ -99186,7 +99261,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 50
+      "2026-07-31": 50,
+      "2026-08-17": 50
     },
     "hist_count": 1
   },
@@ -99214,7 +99290,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 49
+      "2026-07-31": 49,
+      "2026-08-17": 49
     },
     "hist_count": 1
   },
@@ -99242,7 +99319,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 190
+      "2026-07-31": 190,
+      "2026-08-17": 190
     },
     "hist_count": 1
   },
@@ -99270,7 +99348,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 240
+      "2026-07-31": 240,
+      "2026-08-17": 240
     },
     "hist_count": 1
   },
@@ -99298,7 +99377,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 150
+      "2026-07-31": 150,
+      "2026-08-17": 150
     },
     "hist_count": 1
   },
@@ -99326,7 +99406,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 285
+      "2026-07-31": 285,
+      "2026-08-17": 285
     },
     "hist_count": 1
   },
@@ -99354,7 +99435,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 475
+      "2026-07-31": 475,
+      "2026-08-17": 475
     },
     "hist_count": 1
   },
@@ -99382,7 +99464,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 129
+      "2026-07-31": 129,
+      "2026-08-17": 129
     },
     "hist_count": 1
   },
@@ -99410,7 +99493,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 335
+      "2026-07-31": 335,
+      "2026-08-17": 335
     },
     "hist_count": 1
   },
@@ -99438,7 +99522,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 90
+      "2026-07-31": 90,
+      "2026-08-17": 90
     },
     "hist_count": 1
   },
@@ -99466,7 +99551,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 390
+      "2026-07-31": 390,
+      "2026-08-17": 390
     },
     "hist_count": 1
   },
@@ -99494,7 +99580,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 750
+      "2026-07-31": 750,
+      "2026-08-17": 750
     },
     "hist_count": 1
   },
@@ -99522,7 +99609,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 394
+      "2026-07-31": 394,
+      "2026-08-17": 394
     },
     "hist_count": 1
   },
@@ -99550,7 +99638,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 100
+      "2026-07-31": 100,
+      "2026-08-17": 100
     },
     "hist_count": 1
   },
@@ -99578,7 +99667,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 100
+      "2026-07-31": 100,
+      "2026-08-17": 100
     },
     "hist_count": 1
   },
@@ -99606,7 +99696,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 190
+      "2026-07-31": 190,
+      "2026-08-17": 190
     },
     "hist_count": 1
   },
@@ -99634,7 +99725,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 140
+      "2026-07-31": 140,
+      "2026-08-17": 140
     },
     "hist_count": 1
   },
@@ -99662,7 +99754,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 370
+      "2026-07-31": 370,
+      "2026-08-17": 370
     },
     "hist_count": 1
   },
@@ -99690,7 +99783,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 500
+      "2026-07-31": 500,
+      "2026-08-17": 500
     },
     "hist_count": 1
   },
@@ -99718,7 +99812,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 370
+      "2026-07-31": 370,
+      "2026-08-17": 370
     },
     "hist_count": 1
   },
@@ -99746,7 +99841,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 270
+      "2026-07-31": 270,
+      "2026-08-17": 270
     },
     "hist_count": 1
   },
@@ -99774,7 +99870,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 120
+      "2026-07-31": 120,
+      "2026-08-17": 120
     },
     "hist_count": 1
   },
@@ -99802,7 +99899,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 120
+      "2026-07-31": 120,
+      "2026-08-17": 120
     },
     "hist_count": 1
   },
@@ -99830,7 +99928,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 190
+      "2026-07-31": 190,
+      "2026-08-17": 190
     },
     "hist_count": 1
   },
@@ -99858,7 +99957,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 380
+      "2026-07-31": 380,
+      "2026-08-17": 380
     },
     "hist_count": 1
   },
@@ -99886,7 +99986,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 199
+      "2026-07-31": 199,
+      "2026-08-17": 199
     },
     "hist_count": 1
   },
@@ -99914,7 +100015,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 47.5
+      "2026-07-31": 47.5,
+      "2026-08-17": 47.5
     },
     "hist_count": 1
   },
@@ -99942,7 +100044,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 151
+      "2026-07-31": 151,
+      "2026-08-17": 151
     },
     "hist_count": 1
   },
@@ -99970,7 +100073,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 62.5
+      "2026-07-31": 62.5,
+      "2026-08-17": 62.5
     },
     "hist_count": 1
   },
@@ -99998,7 +100102,8 @@ window.shwapno_data = [
     "first_seen": "2026-07-30",
     "last_seen": "2026-07-31",
     "price_history": {
-      "2026-07-31": 99
+      "2026-07-31": 99,
+      "2026-08-17": 99
     },
     "hist_count": 1
   },
@@ -100024,7 +100129,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 185,
+      "2026-08-17": 185
+    }
   },
   {
     "id": "66bc74347a5d2440b69df2ad",
@@ -100048,7 +100157,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 310,
+      "2026-08-17": 310
+    }
   },
   {
     "id": "65efed744029080802d03c58",
@@ -100072,7 +100185,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 370,
+      "2026-08-17": 370
+    }
   },
   {
     "id": "6965feaf716b1456871bd81f",
@@ -100096,7 +100213,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 125,
+      "2026-08-17": 125
+    }
   },
   {
     "id": "69954ca2ac453d092a6d83a9",
@@ -100120,7 +100241,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 120,
+      "2026-08-17": 120
+    }
   },
   {
     "id": "675e8fb04366b500bf695ffb",
@@ -100144,7 +100269,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 133,
+      "2026-08-17": 133
+    }
   },
   {
     "id": "675e8fb44366b500bf6986e0",
@@ -100168,7 +100297,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 130,
+      "2026-08-17": 130
+    }
   },
   {
     "id": "6656b13aa30da7ca62efca9d",
@@ -100192,7 +100325,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 243,
+      "2026-08-17": 243
+    }
   },
   {
     "id": "689c4258177dbdb859ac0010",
@@ -100216,7 +100353,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 240,
+      "2026-08-17": 240
+    }
   },
   {
     "id": "67189dbf88745283cdec9730",
@@ -100240,7 +100381,11 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 240,
+      "2026-08-17": 240
+    }
   },
   {
     "id": "68cb8915f0606d38f1c4dc5a",
@@ -100264,6 +100409,10 @@ window.shwapno_data = [
     "uom_type": 10,
     "stock": "InStock",
     "first_seen": "2026-07-30",
-    "hist_count": 0
+    "hist_count": 0,
+    "price_history": {
+      "2026-07-30": 80,
+      "2026-08-17": 80
+    }
   }
 ];
