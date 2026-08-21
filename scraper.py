@@ -270,6 +270,10 @@ def merge_historical_data(new_products):
         except Exception as e:
             print(f'Warning: could not read existing dataset for historical merge: {e}')
 
+    if not new_products:
+        print('[WARN] 0 new products scraped. Retaining existing master dataset to prevent data loss.')
+        return list(existing_products.values())
+
     merged = []
     scraped_ids = set()
 
@@ -294,12 +298,19 @@ def merge_historical_data(new_products):
             old_item['last_seen'] = today
             old_item['price_history'] = price_hist
             old_item['hist_count'] = len(price_hist)
+            prices = list(price_hist.values())
+            old_item['min_price'] = min(prices)
+            old_item['max_price'] = max(prices)
+            old_item['avg_price'] = round(sum(prices) / len(prices), 2)
             merged.append(old_item)
         else:
             p['first_seen'] = today
             p['last_seen'] = today
             p['price_history'] = {today: curr_price}
             p['hist_count'] = 1
+            p['min_price'] = curr_price
+            p['max_price'] = curr_price
+            p['avg_price'] = curr_price
             merged.append(p)
 
     # Retain items seen previously that weren't in today's scrape
@@ -309,13 +320,14 @@ def merge_historical_data(new_products):
             old_item['hist_count'] = len(price_hist)
             merged.append(old_item)
 
-    # Save daily snapshot to history directory
-    hist_dir = os.path.join(OUT_DIR, 'history')
-    os.makedirs(hist_dir, exist_ok=True)
-    snapshot_path = os.path.join(hist_dir, f'shwapno_products_{today}.json')
-    with open(snapshot_path, 'w', encoding='utf-8') as f:
-        json.dump(new_products, f, indent=2, ensure_ascii=False)
-    print(f'Saved daily snapshot: {snapshot_path}')
+    # Save daily snapshot to history directory (only when valid data exists)
+    if new_products:
+        hist_dir = os.path.join(OUT_DIR, 'history')
+        os.makedirs(hist_dir, exist_ok=True)
+        snapshot_path = os.path.join(hist_dir, f'shwapno_products_{today}.json')
+        with open(snapshot_path, 'w', encoding='utf-8') as f:
+            json.dump(new_products, f, indent=2, ensure_ascii=False)
+        print(f'Saved daily snapshot: {snapshot_path} ({len(new_products)} products)')
 
     return merged
 
@@ -347,6 +359,10 @@ def main():
 
     # Merge daily scraped products with accumulated historical data
     final_products = merge_historical_data(all_products)
+
+    if not final_products:
+        print('[ERROR] Master product list is empty. Aborting save.')
+        return
 
     # Save shwapno_data.js
     data_js_path = os.path.join(OUT_DIR, 'shwapno_data.js')
