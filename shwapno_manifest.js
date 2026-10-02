@@ -741,5 +741,5 @@ window.shwapno_manifest = {
   ],
   "total_categories": 36,
   "total_products": 4112,
-  "captured_at": "2026-10-01T04:51:53.802465"
+  "captured_at": "2026-10-02T03:44:12.126223"
 };
